@@ -12,7 +12,7 @@ const SignUp = () => {
                 <div className="formhead-imge d-flex justify-content-center w-100 ">
                 <hr style={{width:'50%'}}/>
                 <i class="fa-solid fa-basket-shopping" style={{color: "#ff6c2f"}}></i>
-                <h3 className='login-head'>SignUp</h3>
+                <h3 className='login-head '>SignUp</h3>
                 <hr style={{width:'50%'}}/>
 
                 
@@ -33,8 +33,8 @@ const SignUp = () => {
             <div className="col-12 col-md-4  d-flex justify-content-end " >
 
 <div className="signup-sideform d-flex justify-content-center flex-column align-items-center w-100">
-    <h3>Welcome Back!</h3>
-<p>To keep connected with us please login <br/>with your personal info</p>
+    <h3 className='login-sideform-head'>Welcome Back!</h3>
+<p className='login-sideform-para'>To keep connected with us please login <br/>with your personal info</p>
 <button className='butten-log '>LogIn</button>
 </div>
 

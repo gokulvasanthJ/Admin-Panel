@@ -68,6 +68,17 @@ outline: none;
 
 }
 
+.login-sideform-para{
+    background-color: #ffffff;
+}
+
+
+.login-sideform-head{
+    background-color: #ffffff;
+}
+
+
+
 @media only screen and (max-width: 500px) {
     .login-form {
       margin-top: 20px!important;

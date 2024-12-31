@@ -9,9 +9,9 @@ const LogIn = () => {
             
             <div className="col-12 col-md-4  d-flex justify-content-end " >
 
-                <div className="login-sideform d-flex justify-content-center flex-column align-items-center w-100">
-                    <h3>Create an account!</h3>
-                <p>To keep connected with us please login <br/>with your personal info</p>
+                <div className="login-sideform bg-transparen d-flex justify-content-center flex-column align-items-center w-100">
+                    <h3 className='login-sideform-head bg-transparen'>Create an account!</h3>
+                <p className='login-sideform-para bg-transparen'>To keep connected with us please login <br/>with your personal info</p>
                 <button className='butten-log '>SignUp</button>
                 </div>
 

@@ -10,6 +10,9 @@
 .signup-form form{
     max-width: 300px  !important;
 }
+form a{
+    font-size: 13px;
+}
 
 
 .formhead-imge  i{
@@ -18,6 +21,12 @@ font-size: 40px;
 }
 .formhead-imge{
     background-color:#ffffff  !important; 
+}
+.formhead-imge h3{
+    background-color: #ffffff;
+}
+.formhead-imge i{
+    background-color: #ffffff;
 }
 
 .signup-sideform{
