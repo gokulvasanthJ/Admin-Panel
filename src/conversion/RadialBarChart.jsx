@@ -3,7 +3,7 @@ import Chart from "react-apexcharts";
 
 const RadialBarChart = () => {
   const [chartOptions, setChartOptions] = useState({
-    series: [70], // Percentage value
+    series: [70], 
     options: {
       chart: {
         type: "radialBar",
@@ -11,7 +11,7 @@ const RadialBarChart = () => {
       plotOptions: {
         radialBar: {
           hollow: {
-            size: "30%", // Size of the inner circle
+            size: "30%",
           },
           dataLabels: {
             name: {
@@ -29,7 +29,7 @@ const RadialBarChart = () => {
           },
         },
       },
-      labels: ["Progress"], // Label for the chart
+      labels: ["Progress"], 
     },
   });
 
