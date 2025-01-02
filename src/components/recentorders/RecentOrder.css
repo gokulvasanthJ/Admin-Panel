@@ -1,0 +1,31 @@
+.recentorder-container{
+    overflow: scroll;
+    overflow-y: hidden;
+}
+.recentorder-button{
+    background-color: #ff6c2f1a;
+    color: #ff6c2f;
+    padding: 5.5px 12px;
+    font-size: 12.6px;
+    border: none;
+    border-radius: 8px;
+}
+.recentorder-button:hover{
+    background-color: #ff6c2f;
+    color: rgb(255, 255, 255);
+}
+
+.recentorder-container th{
+    font-size: 14px;
+    color: #5d7186 !important;
+    font-family: play, sans-serif ;
+    background-color: #eef2f7 !important;  
+      
+}
+
+
+.recentorder-container td{
+    font-size: 14px;
+    color: #5d7186 !important;
+    vertical-align: middle;
+}
